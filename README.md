@@ -173,7 +173,7 @@ Returns an array of matches captured by `pattern` in `string`, or `null` if the 
 * `pattern` **{String}**: Glob pattern to use for matching.
 * `string` **{String}**: String to match
 * `options` **{Object}**: See available [options](#options) for changing how matches are performed
-* `returns` **{Boolean}**: Returns an array of captures if the string matches the glob pattern, otherwise `null`.
+* `returns` **{Array}**: Returns an array of captures if the string matches the glob pattern, otherwise `null`.
 
 **Example**
 
